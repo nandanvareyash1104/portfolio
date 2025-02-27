@@ -8,18 +8,18 @@ import mui from "../../public/material.svg";
 import git from "../../public/git.png";
 import tailwindcss from "../../public/tail.png";
 import reactquery from "../../public/reactquery.png";
-import bootstrap from "../../public/bootstrap.svg";
+import typescript from "../../public/typescript.svg";
 
 const skillsData = [
   { id: 1, logo: html, name: "HTML" },
   { id: 2, logo: css, name: "CSS" },
   { id: 3, logo: javascript, name: "Javascript" },
+  { id: 9, logo: typescript, name: "Typescript" },
   { id: 4, logo: reactjs, name: "React JS" },
   { id: 5, logo: mui, name: "Material UI" },
   { id: 6, logo: tailwindcss, name: "Tailwind CSS" },
   { id: 7, logo: redux, name: "Redux" },
   { id: 8, logo: reactquery, name: "React Query" },
-  { id: 9, logo: bootstrap, name: "Bootstrap" },
   { id: 10, logo: git, name: "Git" },
 ];
 

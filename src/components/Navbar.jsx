@@ -71,14 +71,14 @@ const Navbar = () => {
         </div>
         {mobileMenuOpen && (
           <div className="bg-white">
-            <ul className="md:hidden flex flex-col items-center justify-center h-screen space-y-3 text-xl">
+            <ul className="md:hidden flex flex-col items-center h-screen space-y-3 text-xl">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 font-semibold cursor-pointer"
+                  className="hover:scale-105 duration-200 font-semibold cursor-pointer mt-10"
                   key={id}
                 >
                   <Link
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                    onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                     to={text}
                     smooth={true}
                     duration={500}
